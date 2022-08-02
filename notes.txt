@@ -1,0 +1,16 @@
+Express API, which connects to MONGO, and give JSON response 
+MONGODB, where data will be stored
+React UI, which will use data from express 
+Library Management- Users: functions(insert,update,delete), Books: functions(insert, update,delete,find), Rent: functions(insert,update,delete,find)
+User Schema: username,name,age,address 
+Books Schema: bookname,author,edition
+Rent Schema: ObjectID of user, ObjectID of Book, Date of expiry 
+
+component to create - create user, create book, update user, update book, get all users 
+
+
+
+
+
+
+API is communication both ways, client sent, and server sent, for requests, and responses.
